@@ -1,0 +1,158 @@
+/* Copy all your existing CSS here */
+.order-list-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.order-list-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.order-list-header {
+  display: flex;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+  font-weight: bold;
+}
+
+.header-checkbox,
+.item-checkbox {
+  width: 10%;
+  display: flex;
+  align-items: center;
+}
+
+.header-product,
+.item-product {
+  width: 50%;
+}
+
+.header-quantity,
+.item-quantity {
+  width: 15%;
+  text-align: center;
+}
+
+.header-price,
+.item-price {
+  width: 25%;
+  text-align: right;
+}
+
+.order-item {
+  display: flex;
+  padding: 15px 0;
+  border-bottom: 1px solid #f5f5f5;
+  align-items: center;
+}
+
+.item-product {
+  display: flex;
+  align-items: center;
+}
+
+.product-image {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+.product-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-name {
+  font-size: 16px;
+  margin: 0 0 5px 0;
+  color: #333;
+}
+
+.product-spec {
+  font-size: 12px;
+  color: #999;
+  margin: 0;
+}
+
+.order-list-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  margin-top: 20px;
+}
+
+.footer-left {
+  display: flex;
+  align-items: center;
+}
+
+.delete-selected {
+  margin-left: 20px;
+  padding: 5px 10px;
+  background: #ff4d4f;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.footer-right {
+  display: flex;
+  align-items: center;
+}
+
+.total-text {
+  margin-right: 10px;
+}
+
+.total-price {
+  font-weight: bold;
+  color: #f56c6c;
+  font-size: 18px;
+  margin-right: 20px;
+}
+
+.checkout-btn {
+  padding: 8px 20px;
+  background: #67c23a;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.arrow-button {
+  /* display: inline-block; */
+  padding: 10px 15px 10px 25px;
+  background-color: #d14949;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+  position: relative;
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+  color: white;
+  float: left;
+}
+
+.arrow-button:hover {
+  background-color: #c24f4f;
+  transform: translateX(-5px);
+}
+
+.arrow-button::before {
+  content: "";
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  width: 8px;
+  height: 8px;
+  border-left: 2px solid #333;
+  border-bottom: 2px solid #333;
+  transform: translateY(-50%) rotate(45deg);
+}

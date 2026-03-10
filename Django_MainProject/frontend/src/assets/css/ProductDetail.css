@@ -1,0 +1,137 @@
+/* Copy all your original CSS here */
+.main_box {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.left_box {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.right_box {
+  flex: 1;
+}
+
+.main-image-container {
+  margin-bottom: 20px;
+}
+
+.main-image {
+  width: 100%;
+  height: auto;
+  max-height: 500px;
+  object-fit: contain;
+}
+
+.thumbnail-container {
+  display: flex;
+  gap: 10px;
+}
+
+.thumbnail {
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.thumbnail.active {
+  border-color: #007bff;
+}
+
+.product-description {
+  margin: 20px 0;
+}
+
+.product-price {
+  font-size: 24px;
+  color: #e4393c;
+  margin: 20px 0;
+}
+
+.product-stock {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.add-to-cart {
+  margin-top: 30px;
+}
+
+.add-to-cart-quantity {
+  margin-right: 10px;
+}
+
+.add-to-cart-number {
+  width: 50px;
+  text-align: center;
+  margin: 0 5px;
+}
+
+.quantity-minus,
+.quantity-plus {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.cart-button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  background-color: #f0c14b;
+  border: 1px solid #a88734;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.star-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 15px;
+  color: #666;
+  text-decoration: none;
+}
+
+.star-btn.collected {
+  color: #ffcc00;
+}
+
+.star-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  fill: currentColor;
+}
+
+#message {
+  margin: 20px 0;
+  color: green;
+}
+
+#backbtn {
+  margin-top: 20px;
+}
+
+.comments {
+  margin-top: 40px;
+}
+
+.comment {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.comments-text {
+  display: block;
+  margin: 10px 0;
+}
+
+textarea {
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 10px;
+}
